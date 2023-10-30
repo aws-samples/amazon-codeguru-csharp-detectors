@@ -17,7 +17,7 @@ namespace Cryptography
         public void ObsoleteCryptographyCompliant()
         {
             X509Certificate2 certificate = new X509Certificate2();
-            // Complaint : ``X509Certificate2.GetRSAPrivateKey()` is safe.
+            // Compliant: `X509Certificate2.GetRSAPrivateKey()` is safe.
             var privatekey = certificate.GetRSAPrivateKey();
         }
         // {/fact}

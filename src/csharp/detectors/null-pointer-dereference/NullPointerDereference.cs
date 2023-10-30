@@ -10,7 +10,7 @@ namespace NullPointer
             {
                 {
                     string myString = null;
-                    // Noncomplient: Using a single `&` in the if statement will cause both sides of the expression to be evaluated.
+                    // Noncompliant: Using a single `&` in the if statement will cause both sides of the expression to be evaluated.
                     if ((myString != null) & (myString.Length > 0))
                     {
                         Console.WriteLine("The string length is greater than 0");
